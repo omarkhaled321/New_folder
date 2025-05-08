@@ -1,0 +1,114 @@
+.middle1 .messages2{
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    
+}
+
+.middle1 .messages2 .heading1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.middle1 .messages2 i{
+    font-size: 1.4rem;
+}
+
+.middle1 .messages2 .search-bar1{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.middle1 .messages2 .category2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.middle1 .messages2 .category2 h6{
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid var(--color-light);
+    padding-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.middle1 .messages2 .category2 .active1{
+    border-color: var(--color-dark);
+}
+
+.middle1 .messages2 .message-requests1{
+    color: var(--color-primary);
+}
+
+.middle1 .messages2 .profile-pic1{
+    position: relative;
+    overflow: visible;
+}
+
+.middle1 .profile-pic1 img{
+    border-radius: 50%;
+}
+
+.middle1 .messages2 .message2{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.middle1 .messages2 .message2:last-child{
+    margin: 0;
+}
+
+
+.middle1 .messages2 .message2 .profile-pic1 .active1{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-white);
+    background: var(--color-success);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.message-body5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container5 {
+    margin-left: 300px; /* Pushes the button to the right */
+}
+
+
+.middle1 .friend-requests1{
+    margin-top: 1rem;
+}
+
+.middle1 .friend-requests1 h4{
+    color: var(--color-gray);
+    margin: 1rem 0;
+}
+
+.middle1 .request1{
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-bottom: 0.7rem;
+}
+
+.middle1 .request1 .info1{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.middle1 .request1 .action1{
+    display: flex;
+    gap: 1rem;
+}

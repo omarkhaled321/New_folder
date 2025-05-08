@@ -1,0 +1,28 @@
+.middle1 .friend-requests1{
+    margin-top: 1rem;
+    margin-left: 150px;
+    width: 400px;
+}
+
+.middle1 .friend-requests1 h4{
+    color: var(--color-gray);
+    margin: 1rem 0;
+}
+
+.middle1 .request1{
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-bottom: 0.7rem;
+}
+
+.middle1 .request1 .info1{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.middle1 .request1 .action1{
+    display: flex;
+    gap: 1rem;
+}

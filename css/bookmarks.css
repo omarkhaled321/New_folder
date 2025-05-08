@@ -1,0 +1,113 @@
+.middle1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.story-section {
+    white-space: nowrap; /* Display stories in a single line */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.stories-slider {
+    display: inline-block; /* Ensure inline-block for smooth sliding */
+    transition: transform 0.5s ease; /* Smooth transition */
+    vertical-align: top; /* Align inline-block element to the top */
+}
+
+.story {
+    display: inline-block; /* Display stories in a row */
+    vertical-align: top; /* Align inline-block element to the top */
+}
+
+.slider-arrow {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: transparent;
+border: none;
+cursor: pointer;
+font-size: 24px;
+color: #000;
+z-index: 1;
+}
+
+.prev {
+left: 360px; /* Move the prev arrow to the left edge */
+top: 120px; /* Adjust the top position as needed */
+}
+
+.next {
+right: 400px; /* Move the next arrow to the right edge */
+top: 120px; /* Adjust the top position as needed */
+}
+/* Add styles for the full-screen container */
+.full-screen-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+}
+
+.full-screen-container img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.full-screen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .lider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .lider-arrow.next {
+    right: 20px;
+  }
+
+  .lider-arrow.prev {
+    left: 20px;
+  }
+  .exit-full-screen {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    border-radius: 50%; /* Make it round */
+    cursor: pointer;
+  }
+      /* Add your CSS styles here */
+      .fullscreen-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7); /* Adjust the transparency as needed */
+        z-index: 9999; /* Ensure the overlay stays on top of other elements */
+      }
